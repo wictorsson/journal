@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 0px;
+
+}
+
+fieldset label {
+    align-self: flex-start;
+}
+
+.submitbutton {
+    margin: 10px;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    border-width: 0px;
+    color: var(--color-foam);
+    font-weight: bolder;
+    background-color: var(--color-nemo-mid);
+}
+
+textarea {
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 8px 6px;
+}
+
+input {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0 8px 6px;
+}

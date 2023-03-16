@@ -1,0 +1,29 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.tab-container {
+    display: flex;
+    align-self: flex-start;
+}
+
+.tab-entries {
+    display: flex;
+    /* margin: 10px;
+    padding: 10 px; */
+    flex-direction: row;
+    /* justify-content: space-around; */
+
+    list-style: none;
+}
+
+.all-entries {
+    color: var(--color-nemo-dark);
+}
+
+
+.tab-entries p {
+    margin: 12px;
+}
