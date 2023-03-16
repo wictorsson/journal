@@ -1,3 +1,5 @@
+import "./Header.css";
+
 export default function Header() {
-  return <div>(Header)-Journal</div>;
+  return <div className="Header">Journal</div>;
 }

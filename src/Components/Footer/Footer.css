@@ -1,0 +1,24 @@
+@import "../../colors.css";
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.Footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: bold;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: var(--color-granite);
+    color: var(--color-foam);
+    height: 80px;
+
+}

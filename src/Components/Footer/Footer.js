@@ -1,3 +1,5 @@
+import "./Footer.css";
+
 export default function Footer() {
-  return <div>(Footer)-Journal App 2028</div>;
+  return <div className="Footer">Journal App 2028</div>;
 }
